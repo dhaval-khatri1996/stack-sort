@@ -7,9 +7,16 @@ The basic princple is to divide and conquer. Each element is either added to cur
 C++ sort compared to stack sort on Ubuntu 10.04
 1.5 * 10^8 integer elements
 Time in seconds
+
+
+
+
         | Stack-sort  | C++ sort
+
 Random  |     39      |    47
-Sorted  |     1       |    26        
+
+Sorted  |     1       |    26   
+     
 Reverse |     2       |    23
 
 Note: Results can be optimized by micro-optimizing, like
