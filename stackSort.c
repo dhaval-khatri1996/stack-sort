@@ -1,7 +1,4 @@
 #include<stdio.h>
-
-//Argumnets both optional size if not passedd 10,000,000 is default and -c or -compare to run inbuilt std.
-#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
 #include<string.h>
@@ -172,9 +169,9 @@ void merge(int *arrayStart, int *auxilaryArrayStart, int *auxilaryMid,int *auxil
     }
 }
 
-int main(int argc, char** argv)
+int main()
 {
-    int i,*arr1,*arr2,arraySize= 10000000;
+    int i,arraySize= 10000000;
     double elapsed_time_ns;
     struct timespec timer1,timer2,timer3,timer4;
     printf("Size of array : %d\n",arraySize);
