@@ -1,7 +1,7 @@
 # stack-sort
 A new sorting algorithm named stack-sort.
 
-The basic princple is to divide and conquer. Each element is either added to current stack or the other stack based on wheather the current element is in order compared to the previous element. If its in order its added to current stack, otherwise the stack is changed and the element is added to new current stack.
+The basic princple is to divide and conquer, using 2 stacks. Each element is either added to current stack or the other stack based on wheather the current element is in order compared to the previous element. If its in order its added to current stack, otherwise the stack is changed and the element is added to new current stack.
 
 
 C++ sort compared to stack sort on Ubuntu 10.04.
