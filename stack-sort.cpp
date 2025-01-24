@@ -192,7 +192,7 @@ if(argc>2 && (strcmp(argv[2],"-compare")==0 || strcmp(argv[2],"-c")==0)){
     {
         if(arr1[i]<arr1[i-1])
             printf("stack sort did not sort the array!!!!");
-        break;
+	    break;
     }
     return 0;
 }
